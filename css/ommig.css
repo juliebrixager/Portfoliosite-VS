@@ -2,6 +2,7 @@
   width: 400px;
   padding: 80px;
   margin: auto;
+  padding-left: 100px;
 }
 
 .tekstommig p,
@@ -11,7 +12,7 @@
   color: #1035eb;
   line-height: 1.8;
   text-align: center;
-  padding: 20px;
+  padding: 30px;
   width: 400px;
   margin: auto;
 }
@@ -23,6 +24,7 @@
   font-size: 18px;
   color: #1035eb;
   text-align: center;
+  padding: 30px;
 }
 
 .tekstommig img {
