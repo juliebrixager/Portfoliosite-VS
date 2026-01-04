@@ -40,7 +40,7 @@ h1 {
   font-weight: 300;
   line-height: 1.6;
   color: #1035eb;
-  padding-left: 60px;
+  padding-left: 30px;
   padding-top: 30px;
   max-width: 400px;
   padding-bottom: -20px;
@@ -123,6 +123,7 @@ h1 {
 .tematekst p,
 .temabeskrivelse p {
   max-width: 400px;
+  margin: auto;
 }
 
 .læring {
@@ -365,5 +366,7 @@ h1 {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     padding-top: 40px;
+    display: flex;
+    justify-content: center;
   }
 }
