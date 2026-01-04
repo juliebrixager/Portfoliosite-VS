@@ -1,8 +1,8 @@
 .ommighero img {
   width: 400px;
-  padding-left: 200px;
   padding-top: 80px;
   padding-bottom: 80px;
+  margin: auto;
 }
 
 .tekstommig p,
