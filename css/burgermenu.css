@@ -66,6 +66,39 @@ nav {
   display: none;
 }
 
+/* Desktop dropdown */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-btn {
+  background: none;
+  border: none;
+  font: inherit;
+  color: #002aff;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: auto;
+  background-color: #ffffff;
+  list-style: none;
+  padding: 15px;
+  min-width: 320px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+/* Hover dropdown */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
 @media screen and (width < 800px) {
   .menu {
     display: none;
@@ -108,5 +141,17 @@ nav {
   nav.active .menu a {
     font-size: 20px;
     padding: 20px;
+  }
+
+  /* Mobil: dropdown opfører sig som normal liste */
+  .dropdown-menu {
+    display: block;
+    position: static;
+    padding: 0;
+  }
+
+  /* Skjul "Mit arbejde"-knappen på mobil */
+  .dropdown-btn {
+    display: none;
   }
 }
