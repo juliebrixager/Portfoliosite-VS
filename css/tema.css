@@ -42,7 +42,7 @@ h1 {
   color: #1035eb;
   padding-left: 60px;
   padding-top: 30px;
-  max-width: 450px;
+  max-width: 400px;
   padding-bottom: -20px;
 }
 
@@ -109,7 +109,8 @@ h1 {
 }
 
 .research,
-.læring {
+.læring,
+.temabeskrivelse {
   max-width: 400px;
   width: 100%;
   padding: 2rem 1.25rem;
@@ -359,11 +360,9 @@ h1 {
     max-width: 600px;
   }
   .grid1-1billeder {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  padding-top: 40px;
-  display: flex;
-    justify-content: center;
-}
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding-top: 40px;
+  }
 }
