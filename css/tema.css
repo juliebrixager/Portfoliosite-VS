@@ -43,6 +43,7 @@ h1 {
   padding-left: 60px;
   padding-top: 30px;
   max-width: 450px;
+  padding-bottom: -20px;
 }
 
 .temaopgave {
@@ -108,7 +109,7 @@ h1 {
 }
 
 .research,
-.temabeskrivelse {
+.læring {
   max-width: 400px;
   width: 100%;
   padding: 2rem 1.25rem;
@@ -139,16 +140,20 @@ h1 {
   margin-top: -50px;
 }
 
-.webformular {
+.webformular,
+.infografik {
   text-align: left;
+  padding: 2rem 1.25rem;
 }
 
 .siteforside {
   text-align: left;
+  padding: 2rem 1.25rem;
 }
 
 .darkmode {
   text-align: left;
+  padding: 2rem 1.25rem;
 }
 
 .temaopgave2 {
@@ -166,8 +171,12 @@ h1 {
 }
 
 .virksomhedimg img {
-  width: 100%;
-  padding: 60px;
+  width: 80%;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.18);
+}
+
+.pogr {
+  padding-top: 110px;
 }
 
 .grid1-1billeder {
@@ -316,7 +325,7 @@ h1 {
 
   .virksomhedimg img {
     width: 600px;
-    padding: 60px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.18);
   }
 
   .temaopgave {
@@ -330,4 +339,31 @@ h1 {
   .research {
     max-width: 700px;
   }
+
+  .webformular,
+  .infografik {
+    text-align: left;
+    padding: 0px;
+    max-width: 600px;
+  }
+
+  .siteforside {
+    text-align: left;
+    padding: 0px;
+    max-width: 600px;
+  }
+
+  .darkmode {
+    text-align: left;
+    padding: 0px;
+    max-width: 600px;
+  }
+  .grid1-1billeder {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding-top: 40px;
+  display: flex;
+    justify-content: center;
+}
 }
