@@ -203,6 +203,7 @@ h1 {
     align-items: center;
     padding: 4rem;
     padding-bottom: 8rem;
+    max-width: fit-content;
   }
 
   .tematekst {
