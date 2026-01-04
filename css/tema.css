@@ -43,7 +43,6 @@ h1 {
   padding-left: 60px;
   padding-top: 30px;
   max-width: 450px;
-  padding-bottom: -20px;
 }
 
 .temaopgave {
@@ -105,14 +104,14 @@ h1 {
 
 .mobiltildesk,
 .research {
-  text-align: left;
-  padding-left: 0px;
-  padding-top: 80px;
+  padding: 2rem 1.25rem;
 }
 
-.research {
+.research,
+.temabeskrivelse {
   max-width: 400px;
   width: 100%;
+  padding: 2rem 1.25rem;
 }
 
 .research p {
@@ -155,7 +154,7 @@ h1 {
 .temaopgave2 {
   background-color: rgb(238, 238, 238);
   color: #1035eb;
-  padding: 60px;
+  padding: 2rem 1.25rem;
 }
 .temaopgave2 h2 {
   font-family: "Minion Pro Italic";
@@ -329,6 +328,6 @@ h1 {
   }
 
   .research {
-  max-width: 700px;
-}
+    max-width: 700px;
+  }
 }
