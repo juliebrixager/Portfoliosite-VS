@@ -1,3 +1,12 @@
+p {
+  max-width: 65ch;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 h3 {
   color: #002aff;
   font-family: "Helvetica Neue", sans-serif;
@@ -40,7 +49,7 @@ h1 {
 .temaopgave {
   background-color: rgb(238, 238, 238);
   color: #1035eb;
-  padding: 60px;
+  padding: 2rem 1.25rem;
   padding-top: 70px;
   margin-top: 40px;
 }
@@ -102,7 +111,8 @@ h1 {
 }
 
 .research {
-  width: 400px;
+  max-width: 400px;
+  width: 100%;
 }
 
 .research p {
@@ -121,9 +131,8 @@ h1 {
 
 .grid1-1 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 20px;
-  padding-top: 40px;
 }
 
 .mandistol {
@@ -160,6 +169,13 @@ h1 {
 .virksomhedimg img {
   width: 100%;
   padding: 60px;
+}
+
+.grid1-1billeder {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding-top: 40px;
 }
 
 @media (width> 800px) {
@@ -303,4 +319,16 @@ h1 {
     width: 600px;
     padding: 60px;
   }
+
+  .temaopgave {
+    background-color: rgb(238, 238, 238);
+    color: #1035eb;
+    padding: 60px;
+    padding-top: 70px;
+    margin-top: 40px;
+  }
+
+  .research {
+  max-width: 700px;
+}
 }

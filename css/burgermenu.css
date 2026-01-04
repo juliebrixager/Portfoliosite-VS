@@ -148,6 +148,7 @@ nav {
     display: block;
     position: static;
     padding: 0;
+    box-shadow: none;
   }
 
   /* Skjul "Mit arbejde"-knappen på mobil */
