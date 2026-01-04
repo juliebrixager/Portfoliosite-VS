@@ -1,0 +1,306 @@
+h3 {
+  color: #002aff;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+h1 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #1035eb;
+}
+
+.temaoverskrift {
+  padding-top: 40px;
+  padding-left: 50px;
+}
+
+.temabeskrivelse img {
+  width: 120px;
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.temabeskrivelse p {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #1035eb;
+  padding-left: 60px;
+  padding-top: 30px;
+  max-width: 450px;
+  padding-bottom: -20px;
+}
+
+.temaopgave {
+  background-color: rgb(238, 238, 238);
+  color: #1035eb;
+  padding: 60px;
+  padding-top: 70px;
+  margin-top: 40px;
+}
+
+.temaopgave1 {
+  text-align: right;
+}
+.temaopgave h1 {
+  color: #1035eb;
+  font-size: 20px;
+}
+
+.temaopgave h2 {
+  font-family: "Minion Pro Italic";
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 100;
+  color: #1035eb;
+  padding-bottom: 40px;
+}
+
+.temaopgave p,
+.temaopgave2 p {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #1035eb;
+  padding-top: 20px;
+  max-width: 400px;
+  padding-bottom: 40px;
+}
+
+.sesitelink {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  text-decoration: underline;
+  font-style: italic;
+  color: #1035eb;
+  font-weight: 400;
+}
+
+.mobilsitebillede {
+  width: 200px;
+  text-align: left;
+}
+
+.websitebillede {
+  max-width: 100%;
+  text-align: right;
+  padding: 40px;
+}
+
+.mobiltildesk,
+.research {
+  text-align: left;
+  padding-left: 0px;
+  padding-top: 80px;
+}
+
+.research {
+  width: 400px;
+}
+
+.research p {
+  max-width: 400px;
+}
+
+.tematekst p,
+.temabeskrivelse p {
+  max-width: 400px;
+}
+
+.læring {
+  text-align: left;
+  padding-top: 60px;
+}
+
+.grid1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding-top: 40px;
+}
+
+.mandistol {
+  width: 200px;
+  margin-top: -50px;
+}
+
+.webformular {
+  text-align: left;
+}
+
+.siteforside {
+  text-align: left;
+}
+
+.darkmode {
+  text-align: left;
+}
+
+.temaopgave2 {
+  background-color: rgb(238, 238, 238);
+  color: #1035eb;
+  padding: 60px;
+}
+.temaopgave2 h2 {
+  font-family: "Minion Pro Italic";
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 100;
+  color: #1035eb;
+  padding-bottom: 20px;
+}
+
+.virksomhedimg img {
+  width: 100%;
+  padding: 60px;
+}
+
+@media (width> 800px) {
+  .temabeskrivelse .solikon2 {
+    display: none;
+  }
+
+  .temabeskrivelse img {
+    width: 400px;
+    justify-self: center;
+  }
+
+  .temabeskrivelse {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 4rem;
+    padding-bottom: 8rem;
+  }
+
+  .tematekst {
+    width: 500px;
+  }
+
+  .temabeskrivelse p {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: #1035eb;
+    padding-left: 10px;
+    padding-top: 30px;
+    max-width: 600px;
+    padding-bottom: -20px;
+  }
+
+  .temaoverskrift {
+    padding-top: 40px;
+    padding-left: 10px;
+  }
+
+  .temaopgave p,
+  .temaopgave2 p {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: #1035eb;
+    padding-top: 20px;
+    max-width: 800px;
+    padding-bottom: 40px;
+  }
+
+  .temaopgave h2,
+  .temaopgave2 h2 {
+    font-family: "Minion Pro Italic";
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: ligher;
+    color: #1035eb;
+    padding-left: 2px;
+    padding-bottom: 70px;
+  }
+
+  .temaopgave1 {
+    text-align: left;
+    padding: 20px;
+  }
+
+  .mobilsitebillede {
+    width: 250px;
+    text-align: right;
+  }
+
+  .websitebillede {
+    width: 500px;
+    text-align: left;
+    padding: 0%;
+    order: -3;
+  }
+
+  .grid2-1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .grid1-2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-top: 100px;
+  }
+
+  .mobiltildesk {
+    text-align: left;
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+
+  .læring {
+    text-align: left;
+    padding-top: 100px;
+    width: 500px;
+  }
+
+  .grid1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .research {
+    width: 700px;
+    padding: 6rem 2rem;
+    margin: auto;
+    text-align: center;
+  }
+
+  .læring {
+    text-align: left;
+    padding-top: 10px;
+    width: 400px;
+  }
+
+  .mandistol {
+    width: 200px;
+    margin: auto;
+    margin-top: -60px;
+  }
+
+  .temaopgave2 {
+    background-color: rgb(238, 238, 238);
+    color: #1035eb;
+    padding: 60px;
+    padding-top: 0px;
+  }
+
+  .virksomhedimg img {
+    width: 600px;
+    padding: 60px;
+  }
+}

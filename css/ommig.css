@@ -1,0 +1,176 @@
+.ommighero img {
+  width: 400px;
+  padding-left: 200px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.tekstommig p,
+.tekstomsemester p {
+  font-family: "M Ying Hei PRC W48 W4";
+  font-size: 12px;
+  color: #1035eb;
+  line-height: 1.8;
+  text-align: center;
+  padding: 20px;
+  width: 400px;
+  margin: auto;
+}
+
+.tekstommig h1,
+.tekstomsemester h1 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #1035eb;
+  text-align: center;
+}
+
+.tekstommig img {
+  width: 350px;
+}
+
+.billedeafmig img {
+  width: 300px;
+}
+
+.billedeafmig {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+.uddannelse dl {
+  color: #002aff;
+  font-family: "Helvetica Neue", sans-serif;
+  width: auto;
+  text-align: center;
+}
+
+dt {
+  font-size: 15px;
+  font-weight: 500;
+  font-style: italic;
+  padding-bottom: 5px;
+}
+
+dd {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.uddannelse h1 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #1035eb;
+  text-align: center;
+}
+
+.solikon img {
+  width: 100px;
+  display: block;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+.uddannelseogjob {
+  background-color: rgb(238, 238, 238);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.joberfaring dl {
+  color: #002aff;
+  font-family: "Helvetica Neue", sans-serif;
+  text-align: center;
+  margin: auto;
+  margin-top: -10px;
+}
+
+.joberfaring h1 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #1035eb;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 0px;
+}
+
+@media (width> 800px) {
+  .ommighero img {
+    width: 900px;
+    padding: 80px;
+  }
+  .ommighero {
+    display: flex;
+    justify-content: center;
+  }
+
+  .tekstommig p,
+  .tekstomsemester p {
+    font-family: "M Ying Hei PRC W48 W4";
+    font-size: 15px;
+    color: #1035eb;
+    line-height: 1.8;
+    text-align: center;
+    width: 600px;
+    padding: 20px;
+  }
+
+  .billedeafmig img {
+    width: 350px;
+  }
+
+  dt {
+    font-size: 16px;
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  dd {
+    font-weight: 300;
+    font-size: 19px;
+  }
+
+  .solikon img {
+    width: 100px;
+    display: block;
+    margin: auto;
+    padding-bottom: 40px;
+  }
+
+  .uddannelseogjob {
+    background-color: rgb(238, 238, 238);
+    padding-top: 80px;
+    padding-bottom: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .joberfaring dl,
+  .uddannelse dl {
+    color: #002aff;
+    font-family: "Helvetica Neue", sans-serif;
+    text-align: left;
+    margin: 0%;
+    padding: 100px;
+    padding-top: 0%;
+  }
+
+  .joberfaring h1 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #1035eb;
+    padding-top: 0%;
+  }
+  .uddannelse h1 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #1035eb;
+    text-align: center;
+  }
+}
