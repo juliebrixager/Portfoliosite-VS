@@ -46,7 +46,8 @@ h1 {
   padding-bottom: -20px;
 }
 
-.temaopgave {
+.temaopgave,
+.temaopgaveintro {
   background-color: rgb(238, 238, 238);
   color: #1035eb;
   padding: 2rem 1.25rem;
@@ -57,12 +58,14 @@ h1 {
 .temaopgave1 {
   text-align: right;
 }
-.temaopgave h1 {
+.temaopgave h1,
+.temaopgaveintro h1 {
   color: #1035eb;
   font-size: 20px;
 }
 
-.temaopgave h2 {
+.temaopgave h2,
+.temaopgaveintro h2 {
   font-family: "Minion Pro Italic";
   font-size: 20px;
   text-decoration: none;
@@ -72,7 +75,8 @@ h1 {
 }
 
 .temaopgave p,
-.temaopgave2 p {
+.temaopgave2 p,
+.temaopgaveintro p {
   font-family: "Helvetica Neue", sans-serif;
   font-size: 14px;
   font-weight: 300;
@@ -229,7 +233,8 @@ h1 {
   }
 
   .temaopgave p,
-  .temaopgave2 p {
+  .temaopgave2 p,
+  .temaopgaveintro p {
     font-family: "Helvetica Neue", sans-serif;
     font-size: 17px;
     font-weight: 300;
@@ -368,5 +373,20 @@ h1 {
     padding-top: 40px;
     display: flex;
     justify-content: center;
+  }
+
+  .temaopgaveintro {
+    background-color: rgb(238, 238, 238);
+    color: #1035eb;
+    padding: 30px;
+    padding-top: 30px;
+    margin-top: 20px;
+  }
+
+  .temaopgaveintro .research {
+    width: 700px;
+    padding: 40px;
+    margin: auto;
+    text-align: center;
   }
 }
