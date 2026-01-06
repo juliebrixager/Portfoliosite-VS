@@ -395,4 +395,9 @@ h1 {
     margin: auto;
     text-align: center;
   }
+  .mobilsitebillede img,
+  .websitebillede img,
+  .grid1-1billeder img {
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.18);
+  }
 }
