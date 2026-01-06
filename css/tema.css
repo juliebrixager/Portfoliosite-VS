@@ -192,6 +192,12 @@ h1 {
   padding-top: 40px;
 }
 
+.mobilsitebillede img,
+.websitebillede img,
+.grid1-1billeder img {
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.18);
+}
+
 @media (width> 800px) {
   .temabeskrivelse .solikon2 {
     display: none;
